@@ -69,20 +69,21 @@
       "responses": ["Aceptamos pagos con tarjeta de crédito, débito, y PayPal.", "Puedes pagar usando varios métodos seguros, incluyendo tarjeta de crédito, débito y PayPal.", "Para realizar el pago, selecciona el método que prefieras durante el proceso de compra.", "Ofrecemos múltiples formas de pago para tu comodidad.", "Aceptamos pagos en efectivo, tarjetas de crédito y débito, PayPal, y transferencias bancarias."]
     },
     {
-      "tag": "horario_gregorio_paz_segura",
-      "patterns": [
-        "¿Cuál es el horario del profesor Gregorio Paz Segura?",
-        "Horario del profesor Gregorio Paz Segura",
-        "¿Qué clases tiene el profesor Gregorio Paz Segura?",
-        "¿Cuándo enseña Gregorio Paz Segura?",
-        "Clases de Gregorio Paz Segura",
-        "¿En qué sala enseña el profesor Gregorio Paz Segura?",
-        "Horario de Gregorio Paz Segura segundo semestre 2024"
-      ],
-      "responses": [
-        "El horario del profesor Gregorio Paz Segura para el segundo semestre 2024 es:\n\nLunes:\n- 10:25 a 11:10 hrs: Macroeconomía en Sala Indus 1\n- 14:45 a 17:05 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 21:00 a 21:45 hrs: Contabilidad y Costos A en Sala Indus 3\n\nMiércoles:\n- 10:25 a 11:10 hrs: Macroeconomía en Sala Indus 1\n- 17:05 a 18:40 hrs: Microeconomía en Sala Indus 1\n- 18:40 a 21:45 hrs: Contabilidad y Costos A en Sala Indus 3\n\nViernes:\n- 17:05 a 18:40 hrs: Microeconomía en Sala Indus 1"
-      ]
-    },
+  "tag": "horario_gregorio_paz_segura",
+  "patterns": [
+    "¿Cuál es el horario del profesor Gregorio Paz Segura?",
+    "Horario del profesor Gregorio Paz Segura",
+    "¿Qué clases tiene el profesor Gregorio Paz Segura?",
+    "¿Cuándo enseña Gregorio Paz Segura?",
+    "Clases de Gregorio Paz Segura",
+    "¿En qué sala enseña el profesor Gregorio Paz Segura?",
+    "Horario de Gregorio Paz Segura segundo semestre 2024"
+  ],
+  "responses": [
+    "El horario del profesor Gregorio Paz Segura para el segundo semestre 2024 es:\n\nLunes:\n- 11:20 a 12:50 hrs: Macroeconomía en Sala Indus 1\n- 14:45 a 16:20 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 16:20 a 17:50 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 21:00 a 22:30 hrs: Contabilidad y Costos A (Vespertina) en Sala Indus 3\n\nMiércoles:\n- 11:20 a 12:50 hrs: Macroeconomía en Sala Indus 1\n- 19:30 a 21:00 hrs: Microeconomía en Sala Indus 1\n- 21:00 a 22:30 hrs: Contabilidad y Costos A (Vespertina) en Sala Indus 3\n\nViernes:\n- 19:30 a 21:00 hrs: Microeconomía en Sala Indus 1"
+  ]
+}
+,
     {
       "tag": "politica_privacidad",
       "patterns": ["¿Cuál es su política de privacidad?", "¿Cuál es su política de protección de datos?", "¿Cómo manejan mis datos?", "¿Qué hacen con mi información personal?", "Protección de datos personales", "¿Cómo protegen mi privacidad?", "¿Qué hacen con los datos que recolectan?"],
