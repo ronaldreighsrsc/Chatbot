@@ -4,6 +4,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 
 # Asegurarte de que los recursos de tokenización estén disponibles
+nltk.download('punkt_tab')
 nltk.download('punkt')  # Descarga el paquete de tokenización
 nltk.download('wordnet')  # Descarga el paquete wordnet para lematización
 
