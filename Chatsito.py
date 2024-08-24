@@ -1,10 +1,11 @@
+# Asegurarte de que los recursos de tokenización estén disponibles
+nltk.download('punkt')  # Descarga el paquete de tokenización
+nltk.download('wordnet')  # Descarga el paquete wordnet para lematización
+
 import streamlit as st
 from Interpretador import predict_class, get_response, intents
 import nltk
 from nltk.stem import WordNetLemmatizer
-# Asegurarte de que los recursos de tokenización estén disponibles
-nltk.download('punkt')  # Descarga el paquete de tokenización
-nltk.download('wordnet')  # Descarga el paquete wordnet para lematización
 
 # Configuración de la aplicación Streamlit
 st.set_page_config(
