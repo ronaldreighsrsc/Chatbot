@@ -1,6 +1,9 @@
 import streamlit as st
 from Interpretador import predict_class, get_response, intents
 import nltk
+from nltk.stem import WordNetLemmatizer
+
+nltk.download('wordnet')  # Descarga el paquete wordnet para lematización
 nltk.download('punkt_tab')
 
 # Configuración de la aplicación Streamlit
