@@ -3,11 +3,7 @@ from Interpretador import predict_class, get_response, intents
 import nltk
 from nltk.stem import WordNetLemmatizer
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-
-nltk.download('wordnet')
-nltk.download('punkt_tab')
 
 
 # Configuración de la aplicación Streamlit
