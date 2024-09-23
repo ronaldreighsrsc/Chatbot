@@ -7,7 +7,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 
 nltk.download('wordnet')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 
 # Configuración de la aplicación Streamlit
