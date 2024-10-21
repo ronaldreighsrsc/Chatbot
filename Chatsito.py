@@ -2,7 +2,7 @@ import streamlit as st
 from Interpretador import predict_class, get_response, intents
 import nltk
 nltk.download('punkt_tab')
-
+nltk.download('wordnet')
 # Configuración de la aplicación Streamlit
 st.set_page_config(
     page_title="Asistente Virtual para Estudiantes",
