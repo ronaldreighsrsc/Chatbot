@@ -1,5 +1,6 @@
 import streamlit as st
 from Interpretador import predict_class, get_response, intents
+nltk.download('punkt_tab')
 
 # Configuración de la aplicación Streamlit
 st.set_page_config(
