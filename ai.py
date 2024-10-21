@@ -1,4 +1,4 @@
-import nltk
+
 from nltk.stem import WordNetLemmatizer
 import json
 import pickle
@@ -8,9 +8,8 @@ from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from keras.optimizers.schedules import ExponentialDecay
 import random
+import nltk
 
-nltk.download('punkt_tab')
-nltk.download('wordnet')
 
 data_file = open('uwu.json', 'r', encoding='utf-8').read()
 intents = json.loads(data_file)
