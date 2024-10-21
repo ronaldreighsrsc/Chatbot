@@ -1,10 +1,5 @@
 import streamlit as st
 from Interpretador import predict_class, get_response, intents
-import nltk
-from nltk.stem import WordNetLemmatizer
-import os
-
-
 
 # Configuración de la aplicación Streamlit
 st.set_page_config(
