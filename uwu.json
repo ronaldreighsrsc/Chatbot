@@ -279,21 +279,6 @@
       ]
     },
     {
-      "tag": "horario_profesores",
-      "patterns": [
-        "¿Cuál es el horario del profesor [NOMBRE]?",
-        "Horario del profesor [NOMBRE]",
-        "¿Qué clases tiene el profesor [NOMBRE]?",
-        "¿Cuándo enseña [NOMBRE]?",
-        "Clases de [NOMBRE]",
-        "¿En qué sala enseña el profesor [NOMBRE]?",
-        "Horario de [NOMBRE] segundo semestre 2024"
-      ],
-      "responses": [
-        "El horario del profesor [NOMBRE] para el segundo semestre 2024 es:\n\nLunes:\n- 11:20 a 12:50 hrs: Macroeconomía en Sala Indus 1\n- 14:45 a 16:20 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 16:20 a 17:50 hrs: Contabilidad y Costos A en Sala 303, Aulario C\n- 21:00 a 22:30 hrs: Contabilidad y Costos A (Vespertina) en Sala Indus 3\n\nMiércoles:\n- 11:20 a 12:50 hrs: Macroeconomía en Sala Indus 1\n- 19:30 a 21:00 hrs: Microeconomía en Sala Indus 1\n- 21:00 a 22:30 hrs: Contabilidad y Costos A (Vespertina) en Sala Indus 3\n\nViernes:\n- 19:30 a 21:00 hrs: Microeconomía en Sala Indus 1"
-      ]
-    },
-    {
       "tag": "politica_privacidad",
       "patterns": [
         "¿Cuál es su política de privacidad?",
@@ -416,19 +401,19 @@
       ]
     },
     {
-      "tag": "horario_sia",
-      "patterns": [
-        "¿Cuál es el horario de SIA?",
-        "Horario de sistemas de información administrativa",
-        "Horario de IN061",
-        "Horario de SIA",
-        "¿Cuándo es la clase de SIA?",
-        "Horario de la clase de sistemas de información administrativa"
-      ],
-      "responses": [
-        "El horario de IN061 - Sistemas de Información Administrativa (SIA) es:\n\nCátedra (Cat A):\n\n- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera"
-      ]
-    },
+  "tag": "horario_sia",
+  "patterns": [
+    "¿Cuál es el horario de SIA?",
+    "Horario de sistemas de información administrativa",
+    "Horario de IN061",
+    "Horario de SIA",
+    "¿Cuándo es la clase de SIA?",
+    "Horario de la clase de sistemas de información administrativa"
+  ],
+  "responses": [
+    "El horario de IN061 - Sistemas de Información Administrativa (SIA) es:\n\nCátedra (Cat A):\n\n- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n\nCátedra (Cat B):\n\n- Viernes 08:00 a 09:30 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro\n- Lunes 14:45 a 16:15 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro"
+  ]
+},
     {
       "tag": "horario_calidad",
       "patterns": [
@@ -458,19 +443,251 @@
       ]
     },
     {
-      "tag": "horario_econometria",
+  "tag": "horario_econometria",
+  "patterns": [
+    "¿Cuál es el horario de econometría?",
+    "Horario de econometría",
+    "Horario de IN065",
+    "Horario de econometría",
+    "¿Cuándo es la clase de econometría?",
+    "Horario de la clase de econometría"
+  ],
+  "responses": [
+    "El horario de IN065 - Econometría es:\n\nCátedra (Cat A):\n\n- Lunes 16:20 a 17:50 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\n- Martes 09:40 a 11:10 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\n- Miércoles 16:20 a 17:50 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\n- Jueves 14:45 a 16:15 hrs en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\nLaboratorio (Lab A y B):\n\n- Jueves 08:00 a 09:30 hrs en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\nAyudantías:\n\n- Jueves 11:20 a 12:50 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Rodrigo Rojas.\n\n- Jueves 17:55 a 19:25 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Rodrigo Rojas."
+  ]
+}
+,
+    {
+      "tag": "horario_macroeconomia",
       "patterns": [
-        "¿Cuál es el horario de econometría?",
-        "Horario de econometría",
-        "Horario de IN065",
-        "Horario de econometría",
-        "¿Cuándo es la clase de econometría?",
-        "Horario de la clase de econometría"
+        "¿Cuál es el horario de Macroeconomía?",
+        "Horario de Macroeconomía",
+        "¿Cuándo toca Macroeconomía?",
+        "Horario de la clase de Macroeconomía",
+        "¿A qué hora es la clase de Macroeconomía?",
+        "¿Cuál es el horario de Macro?",
+        "Horario de Macro",
+        "¿Cuándo toca Macro?",
+        "Horario de la clase de Macro",
+        "¿A qué hora es la clase de Macro?"
       ],
       "responses": [
-        "El horario de IN065 - Econometría es:\n\nCátedra (Cat B):\n\n- Lunes 16:20 a 17:50 hrs en Indus 2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n- Miércoles 16:20 a 17:50 hrs en Indus 2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera\n\nLaboratorio (Lab B):\n\n- Jueves 08:45 a 09:30 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera"
+        "El horario de IN156 - Macroeconomía es:\n\nCátedra A:\n- Lunes 11:20 - 12:50 en Sala Indus1.\nCátedra A:\n- Miércoles 11:20 - 12:50 en Sala Indus1.\nProfesor: Gregorio Paz."
       ]
-    }
+    },
+    {
+  "tag": "horario_ingenieria_economica",
+  "patterns": [
+    "¿Cuál es el horario de Ingeniería Económica?",
+    "Horario de Ingeniería Económica",
+    "¿Cuándo toca Ingeniería Económica?",
+    "Horario de la clase de Ingeniería Económica",
+    "¿A qué hora es la clase de Ingeniería Económica?"
+  ],
+  "responses": [
+    "El horario de IN010 - Ingeniería Económica es:\n\nCátedra A:\n\n- Martes 09:40 a 11:10 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada\n- Jueves 09:40 a 11:10 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada\n\nAyudantía:\n\n- Viernes 11:20 a 12:50 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con N. Abaria\n- Lunes 17:55 a 19:25 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con N. Abaria\n- Lunes 17:55 a 19:25 hrs en Indus3 - Nuevo Edificio Depto Industrial - Saucache con D. Franulovich\n\nLaboratorio:\n\n- Viernes 09:40 a 11:10 hrs en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada (Laboratorio A y B)"
+  ]
+}
+,
+    {
+      "tag": "horario_diseno_experimentos",
+      "patterns": [
+        "¿Cuál es el horario de Diseño de Experimentos?",
+        "Horario de Diseño de Experimentos",
+        "¿Cuándo toca Diseño de Experimentos?",
+        "Horario de la clase de Diseño de Experimentos",
+        "¿A qué hora es la clase de Diseño de Experimentos?"
+      ],
+      "responses": [
+        "El horario de N218 - Diseño de Experimentos es:\n\nCátedra A:\n- Jueves 14:00 - 15:30 en Sala 305 - Aulario C.\nProfesor: Aline Vicencio."
+      ]
+    },
+    {
+      "tag": "horario_comportamiento_organizacional",
+      "patterns": [
+        "¿Cuál es el horario de Comportamiento Organizacional?",
+        "Horario de Comportamiento Organizacional",
+        "¿Cuándo toca Comportamiento Organizacional?",
+        "Horario de la clase de Comportamiento Organizacional",
+        "¿A qué hora es la clase de Comportamiento Organizacional?"
+      ],
+      "responses": [
+        "El horario de N224 - Comportamiento Organizacional es:\n\nCátedra A:\n- Martes 11:00 - 12:30 en Sala 205 - Aulario B.\nProfesor: Marcela Peralta."
+      ]
+    },
+    {
+      "tag": "horario_diseno_experimentos",
+      "patterns": [
+        "¿Cuál es el horario de Diseño de Experimentos?",
+        "Horario de Diseño de Experimentos",
+        "¿Cuándo toca Diseño de Experimentos?",
+        "Horario de la clase de Diseño de Experimentos",
+        "¿A qué hora es la clase de Diseño de Experimentos?"
+      ],
+      "responses": [
+        "El horario de N218 - Diseño de Experimentos es:\n\nCátedra A:\n- Jueves 14:00 - 15:30 en Sala 305 - Aulario C.\nProfesor: Aline Vicencio."
+      ]
+    },
+    {
+  "tag": "horario_actividad_titulacion",
+  "patterns": [
+    "¿Cuál es el horario de Actividad de Titulación?",
+    "Horario de Actividad de Titulación",
+    "¿Cuándo toca Actividad de Titulación?",
+    "Horario de la clase de Actividad de Titulación",
+    "¿A qué hora es la clase de Actividad de Titulación?"
+  ],
+  "responses": [
+    "El horario de IN072 - Actividad de Titulación es:\n\nTaller A:\n\n- Martes 14:45 a 16:15 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Hernando Bustos, Diego Villagra e Italo Marchioni.\n\n- Jueves 09:40 a 11:10 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Hernando Bustos, Diego Villagra e Italo Marchioni.\n\n- Viernes 09:40 a 11:10 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Hernando Bustos, Diego Villagra e Italo Marchioni.\n\nTaller en Laboratorios:\n\n- Miércoles 09:40 a 11:10 en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con los profesores Hernando Bustos, Diego Villagra, e Italo Marchioni.\n\n- Miércoles 11:20 a 12:50 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con Diego Villagra.\n\n- Martes 14:45 a 17:50 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con los profesores Hernando Bustos, Diego Villagra, e Italo Marchioni.\n\n- Jueves 16:20 a 17:50 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Italo Marchioni."
+  ]
+},
+    {
+      "tag": "horario_comportamiento_organizacional",
+      "patterns": [
+        "¿Cuál es el horario de Comportamiento Organizacional?",
+        "Horario de Comportamiento Organizacional",
+        "¿Cuándo toca Comportamiento Organizacional?",
+        "Horario de la clase de Comportamiento Organizacional",
+        "¿A qué hora es la clase de Comportamiento Organizacional?",
+        "¿Cuál es el horario de COCH?",
+        "Horario de COCH",
+        "¿Cuándo toca COCH?",
+        "Horario de la clase de COCH",
+        "¿A qué hora es la clase de COCH?"
+      ],
+      "responses": [
+        "El horario de N224 - Comportamiento Organizacional (COCH) es:\n\nCátedra A:\n- Martes 19:30 - 21:00 en Sala Indus1.\nTaller A:\n- Martes 21:05 - 22:35 en Sala Indus1.\nProfesor: Marcela Peralta."
+      ]
+    },{
+  "tag": "horario_investigacion_operativa",
+  "patterns": [
+    "¿Cuál es el horario de Investigación Operativa?",
+    "Horario de Investigación Operativa",
+    "¿Cuándo toca Investigación Operativa?",
+    "Horario de la clase de Investigación Operativa",
+    "¿A qué hora es la clase de Investigación Operativa?"
+  ],
+  "responses": [
+    "El horario de Investigación Operativa es:\n\nCátedra A:\n\n- Martes 17:55 a 19:25 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con David Catarí Vargas\n- Miércoles y Viernes 21:05 a 22:35 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Paula Atora\n\nLaboratorio:\n\n- Viernes 11:20 a 12:50 hrs en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada\n\nAyudantía:\n\n- Lunes 13:00 a 14:30 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Victor Bravo"
+  ]
+},
+    {
+  "tag": "horario_taller_integracion_conocimientos",
+  "patterns": [
+    "¿Cuál es el horario de Taller de Integración de Conocimientos?",
+    "Horario de Taller de Integración de Conocimientos",
+    "¿Cuándo toca Taller de Integración de Conocimientos?",
+    "Horario de la clase de Taller de Integración de Conocimientos",
+    "¿A qué hora es la clase de Taller de Integración de Conocimientos?",
+    "¿Cuál es el horario de TIC?",
+    "Horario de TIC",
+    "¿Cuándo toca TIC?",
+    "Horario de la clase de TIC",
+    "¿A qué hora es la clase de TIC?"
+  ],
+  "responses": [
+    "El horario de Taller de Integración de Conocimientos (TIC) es:\n\nMartes:\n\n- 14:45 a 16:15 hrs en Lab Indus4 y Indus4 - Nuevo Edificio Depto Industrial - Saucache con Diego Villagra.\n- 16:20 a 19:25 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Diego Villagra.\n\nMiércoles (Taller B):\n\n- 14:45 a 17:50 hrs en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Susana Cortes."
+  ]
+},
+    {
+  "tag": "horario_efp_mercado_agronomo",
+  "patterns": [
+    "¿Cuál es el horario de EFP Mercado Agrónomo?",
+    "Horario de EFP Mercado Agrónomo",
+    "¿Cuándo toca EFP Mercado Agrónomo?",
+    "Horario de la clase de EFP Mercado Agrónomo",
+    "¿A qué hora es la clase de EFP Mercado Agrónomo?"
+  ],
+  "responses": [
+    "El horario de E.F.P. Mercado Agrónomo es:\n\nViernes:\n\n- 09:40 a 11:10 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache."
+  ]
+},
+    {
+  "tag": "horario_efp_analisis_de_mercado",
+  "patterns": [
+    "¿Cuál es el horario de EFP Análisis de Mercado?",
+    "Horario de EFP Análisis de Mercado",
+    "¿Cuándo toca EFP Análisis de Mercado?",
+    "Horario de la clase de EFP Análisis de Mercado",
+    "¿A qué hora es la clase de EFP Análisis de Mercado?"
+  ],
+  "responses": [
+    "El horario de E.F.P. Análisis de Mercado es:\n\nCátedra:\n\n- Martes 16:20 a 17:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Carmen Araneda.\n\n- Viernes 14:45 a 16:15 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Carmen Araneda.\n\n- Martes 14:45 a 17:50 en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con Carmen Araneda."
+  ]
+},
+    {
+  "tag": "horario_taller_ingenieria_industrial",
+  "patterns": [
+    "¿Cuál es el horario de Taller de Ingeniería Industrial?",
+    "Horario de Taller de Ingeniería Industrial",
+    "¿Cuándo toca Taller de Ingeniería Industrial?",
+    "Horario de la clase de Taller de Ingeniería Industrial",
+    "¿A qué hora es la clase de Taller de Ingeniería Industrial?"
+  ],
+  "responses": [
+    "El horario de Taller de Ingeniería Industrial es:\n\nTaller A:\n\n- Lunes 16:20 a 17:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada.\n\nTaller B:\n\n- Miércoles 14:45 a 16:15 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada.\n\nTaller C:\n\n- Miércoles 16:20 a 17:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada.\n\nTaller D:\n\n- Miércoles 16:20 a 17:50 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada.\n\n- Lunes 19:30 a 21:00 en Indus3 - Nuevo Edificio Depto Industrial - Saucache con Aline Vicencio."
+  ]
+},{
+  "tag": "horario_microeconomia",
+  "patterns": [
+    "¿Cuál es el horario de Microeconomía?",
+    "Horario de Microeconomía",
+    "¿Cuándo toca Microeconomía?",
+    "Horario de la clase de Microeconomía",
+    "¿A qué hora es la clase de Microeconomía?"
+  ],
+  "responses": [
+    "El horario de Microeconomía es:\n\nCátedra A:\n\n- Miércoles 19:30 a 21:00 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Gregorio Paz S.\n\n- Viernes 19:30 a 21:00 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Gregorio Paz S."
+  ]
+},{
+  "tag": "horario_tutorias_pares",
+  "patterns": [
+    "¿Cuál es el horario de las tutorías pares?",
+    "Horario de tutorías pares",
+    "¿Cuándo son las tutorías pares?",
+    "Horario de las tutorías pares",
+    "¿A qué hora son las tutorías pares?"
+  ],
+  "responses": [
+    "El horario de las Tutorías Pares es:\n\n- Miércoles 16:20 a 17:50 en Indus3 - Nuevo Edificio Depto Industrial - Saucache con Conny Valdivia.\n\n- Jueves 16:20 a 17:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Conny Valdivia.\n\n- Jueves 16:20 a 17:50 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con D. Franulovich.\n\n- Jueves 16:20 a 17:50 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con K. Di Natale.\n\n- Viernes 11:20 a 12:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Y. Cornejo.\n\n- Viernes 13:00 a 14:45 en Indus3 - Nuevo Edificio Depto Industrial - Saucache con S. Velasquez."
+  ]
+},{
+  "tag": "horario_innovacion",
+  "patterns": [
+    "¿Cuál es el horario de Innovación?",
+    "Horario de Innovación",
+    "¿Cuándo toca Innovación?",
+    "Horario de la clase de Innovación",
+    "¿A qué hora es la clase de Innovación?"
+  ],
+  "responses": [
+    "El horario de Innovación es:\n\nCátedra A:\n\n- Jueves 16:20 a 19:25 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Aline Vicencio.\n\n- Viernes 16:20 a 19:25 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Aline Vicencio."
+  ]
+},{
+  "tag": "horario_termodinamica",
+  "patterns": [
+    "¿Cuál es el horario de Termodinámica?",
+    "Horario de Termodinámica",
+    "¿Cuándo toca Termodinámica?",
+    "Horario de la clase de Termodinámica",
+    "¿A qué hora es la clase de Termodinámica?"
+  ],
+  "responses": [
+    "El horario de Termodinámica es:\n\nCátedra A:\n\n- Lunes 09:40 a 11:10 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Eduardo Gálvez S.\n\n- Miércoles 09:40 a 11:10 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Eduardo Gálvez S.\n\n- Viernes 09:40 a 11:10 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Eduardo Gálvez S."
+  ]
+},{
+  "tag": "horario_operaciones_esbeltas",
+  "patterns": [
+    "¿Cuál es el horario de Operaciones Esbeltas?",
+    "Horario de Operaciones Esbeltas",
+    "¿Cuándo toca Operaciones Esbeltas?",
+    "Horario de la clase de Operaciones Esbeltas",
+    "¿A qué hora es la clase de Operaciones Esbeltas?"
+  ],
+  "responses": [
+    "El horario de Operaciones Esbeltas es:\n\nCátedra A:\n\n- Lunes 16:20 a 17:50 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Raúl Muñoz P.\n\n- Miércoles 11:20 a 12:50 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Raúl Muñoz P.\n\nLaboratorio:\n\n- Miércoles 11:20 a 12:50 en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada L."
+  ]
+}
   ]
 }
 
