@@ -4,6 +4,7 @@ import nltk
 from Interpretador import predict_class, get_response, intents
 # Definir la ruta del archivo CSV donde se guardará la conversación
 nltk.download('punkt_tab')
+nltk.download('wordnet')
 CSV_FILE = "chat_history.csv"
 
 # Intentar cargar el archivo CSV si existe, de lo contrario, crear uno vacío
