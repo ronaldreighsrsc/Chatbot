@@ -1,4 +1,5 @@
 import streamlit as st
+import unicode
 import pandas as pd
 from Interpretador import predict_class, get_response, intents
 from unidecode import unidecode  # Agregar para eliminar tildes
