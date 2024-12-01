@@ -2,6 +2,7 @@
 import random
 import json
 import pickle
+import unicode
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
