@@ -2,12 +2,12 @@
 import random
 import json
 import pickle
-import unicode
 import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
-import unidecode  # Necesario para eliminar tildes
+from unidecode import unidecode
+
 
 lemmatizer = WordNetLemmatizer()  # Create an instance of the WordNetLemmatizer class
 intents = json.loads(open('uwu.json', 'r', encoding='utf-8').read())  # Load the intents file
