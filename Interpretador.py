@@ -6,6 +6,7 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
+import unidecode  # Necesario para eliminar tildes
 
 lemmatizer = WordNetLemmatizer()  # Create an instance of the WordNetLemmatizer class
 intents = json.loads(open('uwu.json', 'r', encoding='utf-8').read())  # Load the intents file
@@ -14,7 +15,12 @@ words = pickle.load(open('words.pkl', 'rb'))  # Load the words.pkl file
 classes = pickle.load(open('classes.pkl', 'rb'))  # Load the classes.pkl file
 model = load_model('chatbot_model.h5')  # Load the chatbot_model.h5 file
 
+# Función para eliminar tildes
+def remove_accents(input_str):
+    return unidecode.unidecode(input_str)
+
 def clean_up_sentence(sentence):  # Create a function to clean up the user's input
+    sentence = remove_accents(sentence)  # Eliminar tildes de la entrada del usuario
     sentence_words = nltk.word_tokenize(sentence)  # Tokenize the user's input
     sentence_words = [lemmatizer.lemmatize(word.lower()) for word in sentence_words]  # Lemmatize each word in the user's input
     return sentence_words  # Return the cleaned up sentence
@@ -43,7 +49,7 @@ def get_response(intents_list, intents_json):
     tag = intents_list[0]['intent']  # Get the tag of the intent
     list_of_intents = intents_json['intents']  # Get the list of intents
     for i in list_of_intents:  # Loop through the list of intents
-        if i['tag'] == tag:  # If the tag is equal to the tag of the intent
+        if remove_accents(i['tag']) == remove_accents(tag):  # Comparar sin tildes
             result = random.choice(i['responses'])  # Get a random response from the intent
             break  # Break out of the loop
     return result  # Return the response
