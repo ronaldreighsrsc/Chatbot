@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
-import nltk
 from Interpretador import predict_class, get_response, intents
-# Definir la ruta del archivo CSV donde se guardará la conversación
+from unidecode import unidecode  # Agregar para eliminar tildes
+
 nltk.download('punkt_tab')
 nltk.download('wordnet')
+# Definir la ruta del archivo CSV donde se guardará la conversación
 CSV_FILE = "chat_history.csv"
 
 # Intentar cargar el archivo CSV si existe, de lo contrario, crear uno vacío
@@ -24,6 +25,7 @@ def add_chat_to_csv(chat_id, role, content):
     new_chat = pd.DataFrame({"ChatID": [chat_id], "Role": [role], "Content": [content]})
     chat_history_df = pd.concat([chat_history_df, new_chat], ignore_index=True)
     chat_history_df.to_csv(CSV_FILE, index=False)
+
 # Configuración de la aplicación Streamlit
 st.set_page_config(
     page_title="Asistente Virtual para Estudiantes",
@@ -119,9 +121,9 @@ if len(st.session_state.messages) == 0:
             f"1. **Syllabus** [aquí]({google_drive_link})\n 2. **Información general** (Perfil de egreso, etc)\n 3. **Malla** [aquí]({google_drive_link2})\n 4. **Acerca de Eliminar Asignaturas** [aquí]({google_drive_link3})\n 5. **Fechas registraduría** (Según el mes)\n 6. **Otras opciones** (por ejemplo, preguntas frecuentes, ayuda, certificado médico, etc .)")
         st.markdown("Hola, ¿cómo puedo ayudarte?")
 
-
 # Capturar el mensaje del usuario y la respuesta del asistente
 if prompt := st.chat_input("¿Cómo puedo ayudarte?"):
+    prompt = unidecode(prompt)  # Eliminar tildes antes de procesar la entrada
     with st.chat_message("user"):
         st.markdown(prompt)
 
@@ -149,8 +151,7 @@ if prompt := st.chat_input("¿Cómo puedo ayudarte?"):
     # Dividir la pantalla en 20 columnas para los botones solo si feedback_visible es True
     if st.session_state.feedback_visible:
         with st.container():
-            col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15, col16, col17, col18, col19, col20 = st.columns(
-                20)
+            col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11, col12, col13, col14, col15, col16, col17, col18, col19, col20 = st.columns(20)
 
             # Colocar el botón de feedback positivo en la columna 19
             with col19:
@@ -166,4 +167,3 @@ if prompt := st.chat_input("¿Cómo puedo ayudarte?"):
                     print("Feedback negativo recibido: Guardando...")  # Depuración adicional
                     add_chat_to_csv(st.session_state.chat_id, "Feedback", "dislike")  # Guardar el feedback en el archivo CSV
                     st.success("¡Gracias por tu feedback! Estamos trabajando para mejorar.")
-
