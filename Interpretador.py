@@ -6,8 +6,7 @@ import numpy as np
 import nltk
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
-from unidecode import unidecode
-
+from unidecode import unidecode  # Correcta importación
 
 lemmatizer = WordNetLemmatizer()  # Create an instance of the WordNetLemmatizer class
 intents = json.loads(open('uwu.json', 'r', encoding='utf-8').read())  # Load the intents file
