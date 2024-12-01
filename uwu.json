@@ -81,19 +81,9 @@
     {
       "tag": "horario_atencion",
       "patterns": [
-        "¿Cuál es el horario de atención?",
-        "¿Qué horario tienen?",
-        "¿A qué hora abren?",
-        "¿A qué hora cierran?",
-        "Horario de atención",
-        "Horas de servicio",
-        "¿Cuál es el horario de la oficina?",
         "Horario de la recaudación",
         "Horario del área de recaudación",
-        "¿Cuál es el horario del departamento?",
-        "¿Cuándo están disponibles?",
-        "Horas de operación",
-        "¿Cuál es el horario de apertura?"
+        "recaudacion"
       ],
       "responses": [
         "Nuestro horario de atención es:\n\nLunes a Jueves: 09:00 a 15:30 hrs\nViernes: 09:00 a 15:00 hrs\n\nHorario Vespertino:\nLunes a Jueves: 18:00 a 21:00 hrs\nViernes: 17:00 a 20:00 hrs",
@@ -279,115 +269,6 @@
       ]
     },
     {
-      "tag": "politica_privacidad",
-      "patterns": [
-        "¿Cuál es su política de privacidad?",
-        "¿Cuál es su política de protección de datos?",
-        "¿Cómo manejan mis datos?",
-        "¿Qué hacen con mi información personal?",
-        "Protección de datos personales",
-        "¿Cómo protegen mi privacidad?",
-        "¿Qué hacen con los datos que recolectan?",
-        "Política de privacidad de la empresa",
-        "Privacidad de datos"
-      ],
-      "responses": [
-        "Puedes leer nuestra política de privacidad en https://www.ejemplo.com/politica_privacidad.",
-        "Nuestra política de privacidad garantiza la protección de tus datos personales. Más información en https://www.ejemplo.com/politica_privacidad.",
-        "Nos tomamos muy en serio la privacidad de nuestros usuarios. Consulta todos los detalles en nuestra política de privacidad.",
-        "Tu información personal se maneja con la máxima confidencialidad y seguridad.",
-        "Puedes consultar nuestra política de privacidad para entender cómo protegemos y usamos tus datos en https://www.ejemplo.com/politica_privacidad."
-      ]
-    },
-    {
-      "tag": "identidad",
-      "patterns": [
-        "¿Quién eres?",
-        "¿Cuál es tu nombre?",
-        "¿Qué eres?",
-        "¿Cómo te llamas?",
-        "Identifícate",
-        "¿Eres un robot?",
-        "¿Quién es tu creador?"
-      ],
-      "responses": [
-        "Soy un asistente virtual diseñado para ayudarte con tus consultas.",
-        "Me llamo Asistente Virtual y estoy aquí para ayudarte.",
-        "Soy un programa diseñado para asistir en tareas y responder preguntas.",
-        "Soy un asistente creado para ayudarte a resolver tus dudas. ¿En qué puedo asistirte hoy?",
-        "Soy un asistente virtual, desarrollado para ofrecer soporte y ayuda en lo que necesites."
-      ]
-    },
-    {
-      "tag": "consulta_horarios",
-      "patterns": [
-        "¿Cuáles son sus horarios de atención?",
-        "¿Cuándo están abiertos?",
-        "Horarios de atención",
-        "¿A qué hora abren?",
-        "¿A qué hora cierran?",
-        "¿Cuáles son sus horas de operación?",
-        "Horario de la tienda",
-        "Horas de servicio",
-        "¿Cuándo puedo visitarlos?",
-        "¿Cuál es el horario de apertura?",
-        "¿Cuándo está disponible el servicio?"
-      ],
-      "responses": [
-        "Nuestros horarios de atención son de lunes a viernes, de 9:00 AM a 6:00 PM.",
-        "Estamos abiertos de lunes a viernes, de 9:00 AM a 6:00 PM.",
-        "Puedes visitarnos en nuestro horario de atención: de lunes a viernes, de 9:00 AM a 6:00 PM.",
-        "Nuestros horarios de operación son de lunes a viernes, de 9:00 AM a 6:00 PM.",
-        "Atendemos de lunes a viernes, de 9:00 AM a 6:00 PM.",
-        "Nuestros servicios están disponibles de lunes a viernes, de 9:00 AM a 6:00 PM. ¿Cómo puedo ayudarte hoy?"
-      ]
-    },
-    {
-      "tag": "consulta_ubicacion",
-      "patterns": [
-        "¿Dónde están ubicados?",
-        "Ubicación de la tienda",
-        "¿Dónde puedo encontrarlos?",
-        "¿Dónde están?",
-        "Dirección de la tienda",
-        "¿Cómo llegar a la tienda?",
-        "¿Cuál es la dirección de la tienda?",
-        "¿Dónde está la tienda?",
-        "¿Dónde se encuentran?",
-        "¿Cuál es la dirección?"
-      ],
-      "responses": [
-        "Estamos ubicados en [dirección].",
-        "Nuestra tienda se encuentra en [dirección].",
-        "Puedes visitarnos en [dirección].",
-        "Nuestra ubicación es [dirección].",
-        "Estamos localizados en [dirección]. ¿Cómo podemos ayudarte?",
-        "Nos encontramos en [dirección]. ¿Te gustaría saber cómo llegar?"
-      ]
-    },
-    {
-      "tag": "consulta_contacto",
-      "patterns": [
-        "¿Cómo puedo contactarlos?",
-        "Información de contacto",
-        "¿Cómo puedo comunicarme con ustedes?",
-        "Número de contacto",
-        "¿Tienen un número de teléfono?",
-        "¿Cómo puedo enviar un correo?",
-        "Contacto",
-        "Información para contactarlos",
-        "¿Cuál es su número de contacto?",
-        "¿Dónde puedo llamar?"
-      ],
-      "responses": [
-        "Puedes contactarnos por teléfono al [número de teléfono] o enviarnos un correo a [correo electrónico].",
-        "Para contactarnos, llama al [número de teléfono] o envía un correo a [correo electrónico].",
-        "Nuestra línea de atención al cliente es [número de teléfono] y nuestro correo es [correo electrónico].",
-        "Puedes comunicarte con nosotros llamando al [número de teléfono] o escribiendo a [correo electrónico].",
-        "Para cualquier consulta, puedes contactarnos a través de [número de teléfono] o [correo electrónico]."
-      ]
-    },
-    {
       "tag": "horario_modelos_estocasticos",
       "patterns": [
         "¿Cuál es el horario de modelos estocásticos?",
@@ -425,7 +306,7 @@
         "Horario de la clase de calidad"
       ],
       "responses": [
-        "El horario de IN063 - Sistemas de Gestión y Aseguramiento de la Calidad (CALIDAD) es:\n\nCátedra (Cat A):\n\n- Lunes 08:00 a 09:30 hrs en Sala 304 - Aulario C - Saucache con Raúl Enrique Muñoz Plaza\n- Miércoles 08:00 a 09:30 hrs en Sala 304 - Aulario C - Saucache con Raúl Enrique Muñoz Plaza\n\nLaboratorio (Lab C):\n\n- Viernes 14:45 a 15:30 hrs en Lab Indus 4 - Nuevo Edificio Depto Industrial - Saucache con Vania Francisca Quezada Lara"
+        "El horario de IN063 - Sistemas de Gestión y Aseguramiento de la Calidad es:\n\nCátedra (Cat A):\n\n- Lunes 08:00 a 09:30 hrs en Sala 304 - Aulario C - Saucache con Raúl Enrique Muñoz Plaza\n- Miércoles 08:00 a 09:30 hrs en Sala 304 - Aulario C - Saucache con Raúl Enrique Muñoz Plaza\n\nLaboratorio (Lab C):\n\n- Viernes 14:45 a 15:30 hrs en Lab Indus 4 - Nuevo Edificio Depto Industrial - Saucache con Vania Francisca Quezada Lara"
       ]
     },
     {
@@ -450,7 +331,8 @@
     "Horario de IN065",
     "Horario de econometría",
     "¿Cuándo es la clase de econometría?",
-    "Horario de la clase de econometría"
+    "Horario de la clase de econometría",
+    "econometria"
   ],
   "responses": [
     "El horario de IN065 - Econometría es:\n\nCátedra (Cat A):\n\n- Lunes 16:20 a 17:50 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\n- Martes 09:40 a 11:10 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\n- Miércoles 16:20 a 17:50 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\n- Jueves 14:45 a 16:15 hrs en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\nLaboratorio (Lab A y B):\n\n- Jueves 08:00 a 09:30 hrs en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera.\n\nAyudantías:\n\n- Jueves 11:20 a 12:50 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Rodrigo Rojas.\n\n- Jueves 17:55 a 19:25 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Rodrigo Rojas."
@@ -482,7 +364,8 @@
     "Horario de Ingeniería Económica",
     "¿Cuándo toca Ingeniería Económica?",
     "Horario de la clase de Ingeniería Económica",
-    "¿A qué hora es la clase de Ingeniería Económica?"
+    "¿A qué hora es la clase de Ingeniería Económica?",
+    "Economica"
   ],
   "responses": [
     "El horario de IN010 - Ingeniería Económica es:\n\nCátedra A:\n\n- Martes 09:40 a 11:10 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada\n- Jueves 09:40 a 11:10 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada\n\nAyudantía:\n\n- Viernes 11:20 a 12:50 hrs en Indus2 - Nuevo Edificio Depto Industrial - Saucache con N. Abaria\n- Lunes 17:55 a 19:25 hrs en Indus1 - Nuevo Edificio Depto Industrial - Saucache con N. Abaria\n- Lunes 17:55 a 19:25 hrs en Indus3 - Nuevo Edificio Depto Industrial - Saucache con D. Franulovich\n\nLaboratorio:\n\n- Viernes 09:40 a 11:10 hrs en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada (Laboratorio A y B)"
@@ -503,39 +386,14 @@
       ]
     },
     {
-      "tag": "horario_comportamiento_organizacional",
-      "patterns": [
-        "¿Cuál es el horario de Comportamiento Organizacional?",
-        "Horario de Comportamiento Organizacional",
-        "¿Cuándo toca Comportamiento Organizacional?",
-        "Horario de la clase de Comportamiento Organizacional",
-        "¿A qué hora es la clase de Comportamiento Organizacional?"
-      ],
-      "responses": [
-        "El horario de N224 - Comportamiento Organizacional es:\n\nCátedra A:\n- Martes 11:00 - 12:30 en Sala 205 - Aulario B.\nProfesor: Marcela Peralta."
-      ]
-    },
-    {
-      "tag": "horario_diseno_experimentos",
-      "patterns": [
-        "¿Cuál es el horario de Diseño de Experimentos?",
-        "Horario de Diseño de Experimentos",
-        "¿Cuándo toca Diseño de Experimentos?",
-        "Horario de la clase de Diseño de Experimentos",
-        "¿A qué hora es la clase de Diseño de Experimentos?"
-      ],
-      "responses": [
-        "El horario de N218 - Diseño de Experimentos es:\n\nCátedra A:\n- Jueves 14:00 - 15:30 en Sala 305 - Aulario C.\nProfesor: Aline Vicencio."
-      ]
-    },
-    {
   "tag": "horario_actividad_titulacion",
   "patterns": [
     "¿Cuál es el horario de Actividad de Titulación?",
     "Horario de Actividad de Titulación",
     "¿Cuándo toca Actividad de Titulación?",
     "Horario de la clase de Actividad de Titulación",
-    "¿A qué hora es la clase de Actividad de Titulación?"
+    "¿A qué hora es la clase de Actividad de Titulación?",
+    "titulacion"
   ],
   "responses": [
     "El horario de IN072 - Actividad de Titulación es:\n\nTaller A:\n\n- Martes 14:45 a 16:15 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Hernando Bustos, Diego Villagra e Italo Marchioni.\n\n- Jueves 09:40 a 11:10 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Hernando Bustos, Diego Villagra e Italo Marchioni.\n\n- Viernes 09:40 a 11:10 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Hernando Bustos, Diego Villagra e Italo Marchioni.\n\nTaller en Laboratorios:\n\n- Miércoles 09:40 a 11:10 en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con los profesores Hernando Bustos, Diego Villagra, e Italo Marchioni.\n\n- Miércoles 11:20 a 12:50 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con Diego Villagra.\n\n- Martes 14:45 a 17:50 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con los profesores Hernando Bustos, Diego Villagra, e Italo Marchioni.\n\n- Jueves 16:20 a 17:50 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Italo Marchioni."
@@ -553,7 +411,8 @@
         "Horario de COCH",
         "¿Cuándo toca COCH?",
         "Horario de la clase de COCH",
-        "¿A qué hora es la clase de COCH?"
+        "¿A qué hora es la clase de COCH?",
+        "coch"
       ],
       "responses": [
         "El horario de N224 - Comportamiento Organizacional (COCH) es:\n\nCátedra A:\n- Martes 19:30 - 21:00 en Sala Indus1.\nTaller A:\n- Martes 21:05 - 22:35 en Sala Indus1.\nProfesor: Marcela Peralta."
@@ -634,7 +493,9 @@
     "Horario de Microeconomía",
     "¿Cuándo toca Microeconomía?",
     "Horario de la clase de Microeconomía",
-    "¿A qué hora es la clase de Microeconomía?"
+    "¿A qué hora es la clase de Microeconomía?",
+    "Micro",
+    "Horario microeconomia"
   ],
   "responses": [
     "El horario de Microeconomía es:\n\nCátedra A:\n\n- Miércoles 19:30 a 21:00 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Gregorio Paz S.\n\n- Viernes 19:30 a 21:00 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Gregorio Paz S."
@@ -646,7 +507,8 @@
     "Horario de tutorías pares",
     "¿Cuándo son las tutorías pares?",
     "Horario de las tutorías pares",
-    "¿A qué hora son las tutorías pares?"
+    "¿A qué hora son las tutorías pares?",
+    "tutorias"
   ],
   "responses": [
     "El horario de las Tutorías Pares es:\n\n- Miércoles 16:20 a 17:50 en Indus3 - Nuevo Edificio Depto Industrial - Saucache con Conny Valdivia.\n\n- Jueves 16:20 a 17:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Conny Valdivia.\n\n- Jueves 16:20 a 17:50 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con D. Franulovich.\n\n- Jueves 16:20 a 17:50 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con K. Di Natale.\n\n- Viernes 11:20 a 12:50 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Y. Cornejo.\n\n- Viernes 13:00 a 14:45 en Indus3 - Nuevo Edificio Depto Industrial - Saucache con S. Velasquez."
@@ -658,7 +520,8 @@
     "Horario de Innovación",
     "¿Cuándo toca Innovación?",
     "Horario de la clase de Innovación",
-    "¿A qué hora es la clase de Innovación?"
+    "¿A qué hora es la clase de Innovación?",
+    "innovacion"
   ],
   "responses": [
     "El horario de Innovación es:\n\nCátedra A:\n\n- Jueves 16:20 a 19:25 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Aline Vicencio.\n\n- Viernes 16:20 a 19:25 en Indus1 - Nuevo Edificio Depto Industrial - Saucache con Aline Vicencio."
@@ -670,7 +533,9 @@
     "Horario de Termodinámica",
     "¿Cuándo toca Termodinámica?",
     "Horario de la clase de Termodinámica",
-    "¿A qué hora es la clase de Termodinámica?"
+    "¿A qué hora es la clase de Termodinámica?",
+    "Termodinamica",
+    "termo"
   ],
   "responses": [
     "El horario de Termodinámica es:\n\nCátedra A:\n\n- Lunes 09:40 a 11:10 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Eduardo Gálvez S.\n\n- Miércoles 09:40 a 11:10 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Eduardo Gálvez S.\n\n- Viernes 09:40 a 11:10 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Eduardo Gálvez S."
@@ -687,7 +552,257 @@
   "responses": [
     "El horario de Operaciones Esbeltas es:\n\nCátedra A:\n\n- Lunes 16:20 a 17:50 en Indus2 - Nuevo Edificio Depto Industrial - Saucache con Raúl Muñoz P.\n\n- Miércoles 11:20 a 12:50 en Indus4 - Nuevo Edificio Depto Industrial - Saucache con Raúl Muñoz P.\n\nLaboratorio:\n\n- Miércoles 11:20 a 12:50 en Lab Indus2 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada L."
   ]
-}
+},{
+  "tag": "horario_electivo_seminario",
+  "patterns": [
+    "¿Cuál es el horario de Electivo Seminario?",
+    "Horario de Electivo Seminario",
+    "¿Cuándo toca Electivo Seminario?",
+    "Horario de la clase de Electivo Seminario",
+    "¿A qué hora es la clase de Electivo Seminario?"
+  ],
+  "responses": [
+    "El horario de Electivo Seminario es:\n\nTaller A:\n\n- Lunes 09:40 a 12:50 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Liliana Pedraja R.\n\n- Martes 09:40 a 11:10 en Lab Indus1 - Nuevo Edificio Depto Industrial - Saucache con Liliana Pedraja R."
+  ]
+},{
+  "tag": "horario_ciencia_de_datos",
+  "patterns": [
+    "¿Cuál es el horario de Ciencia de Datos?",
+    "Horario de Ciencia de Datos",
+    "¿Cuándo toca Ciencia de Datos?",
+    "Horario de la clase de Ciencia de Datos",
+    "¿A qué hora es la clase de Ciencia de Datos?"
+  ],
+  "responses": [
+    "El horario de Ciencia de Datos Aplicada a la Industria es:\n\nCátedra A:\n\n- Jueves 14:45 a 16:15 en LabIndus4 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega.\n\n- Viernes 14:45 a 16:15 en LabIndus4 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega.\n\nLaboratorio:\n\n- Jueves 16:20 a 17:50 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega.\n\n- Viernes 16:20 a 17:50 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega."
+  ]
+},{
+  "tag": "horario_interpretacion_grafica",
+  "patterns": [
+    "¿Cuál es el horario de Interpretación Gráfica?",
+    "Horario de Interpretación Gráfica",
+    "¿Cuándo toca Interpretación Gráfica?",
+    "Horario de la clase de Interpretación Gráfica",
+    "¿A qué hora es la clase de Interpretación Gráfica?",
+    "interpretacion grafica"
+  ],
+  "responses": [
+    "El horario de Interpretación Gráfica es:\n\nGrupo B:\n\n- Lunes 08:00 a 09:30 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con Oscar.\n\n- Jueves 08:00 a 09:30 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con Oscar.\n\nGrupo C:\n\n- Jueves 16:20 a 19:25 en Lab Indus3 - Nuevo Edificio Depto Industrial - Saucache con N.N."
+  ]
+},{
+  "tag": "horario_excel_avanzado",
+  "patterns": [
+    "¿Cuál es el horario de Excel Avanzado?",
+    "Horario de Excel Avanzado",
+    "Horario de N092",
+    "¿Cuándo toca Excel Avanzado?",
+    "¿A qué hora es Excel Avanzado?",
+    "Clase de Excel Avanzado"
+  ],
+  "responses": [
+    "El horario de N092 - Excel Avanzado es:\n\nCátedra:\n- Lunes 17:55 a 19:25 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Jorge Piñones C.\n- Martes 17:55 a 19:25 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Jorge Piñones C.\n- Jueves 17:55 a 19:25 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Jorge Piñones C.\n\nCátedra B y Laboratorio:\n- Miércoles 17:55 a 19:25 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Jorge Piñones C."
+  ]
+},{
+  "tag": "horario_topicos_avanzados_marketing",
+  "patterns": [
+    "¿Cuál es el horario de Tópicos Avanzados de Marketing?",
+    "Horario de Tópicos Avanzados de Marketing",
+    "Horario de N251",
+    "¿Cuándo toca Tópicos Avanzados de Marketing?",
+    "¿A qué hora es Tópicos Avanzados de Marketing?",
+    "Clase de Tópicos Avanzados de Marketing"
+  ],
+  "responses": [
+    "El horario de N251 - Tópicos Avanzados de Marketing es:\n\nCátedra A:\n- Lunes 14:45 a 16:15 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega.\n- Miércoles 14:45 a 16:15 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega.\n- Viernes 14:45 a 16:15 hrs en Lab Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Juan Vega.\n\nLaboratorio A:\n- Martes 11:20 a 12:50 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Vania Quezada."
+  ]
+},{
+  "tag": "horario_ingles_comunicacional_preintermedio",
+  "patterns": [
+    "¿Cuál es el horario de inglés comunicacional?",
+    "Horario de inglés preintermedio",
+    "¿Cuándo son las clases de inglés preintermedio?",
+    "Horario de DI089",
+    "¿A qué hora es inglés preintermedio?",
+    "ingles"
+  ],
+  "responses": [
+    "El horario de DI089 - Inglés Comunicacional Preintermedio II es:\n\nTaller A:\n- Martes 08:00 a 09:30 hrs en Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Francisco Tapia S.\n- Jueves 08:00 a 09:30 hrs en Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Francisco Tapia S.\n- Viernes 08:00 a 09:30 hrs en Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Francisco Tapia S.\n\nTaller B:\n- Martes 09:40 a 11:10 hrs en Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Melissa Sepúlveda C.\n- Miércoles 09:40 a 11:10 hrs en Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Melissa Sepúlveda C.\n- Viernes 09:40 a 11:10 hrs en Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Melissa Sepúlveda C.\n\nTaller C:\n- Lunes 09:40 a 11:10 hrs en Indus 4 - Nuevo Edificio Depto Industrial - Saucache con Francisco Tapia S.\n- Miércoles 09:40 a 11:10 hrs en Indus 4 - Nuevo Edificio Depto Industrial - Saucache con Francisco Tapia S.\n- Viernes 09:40 a 11:10 hrs en Indus 4 - Nuevo Edificio Depto Industrial - Saucache con Francisco Tapia S."
+  ]
+},{
+      "tag": "informacion_general",
+      "patterns": [
+        "¿De qué se trata la carrera?",
+        "¿Qué información general hay sobre la carrera?",
+        "Dame información sobre la carrera"
+      ],
+      "responses": [
+        "La carrera de Ingeniería Industrial tiene como objetivo formar profesionales capaces de gestionar y optimizar sistemas y recursos para la producción de bienes y servicios en diversas organizaciones."
+      ]
+    },
+    {
+      "tag": "historia_carrera",
+      "patterns": [
+        "¿Cuál es la historia de la carrera?",
+        "Cuéntame sobre la trayectoria de la carrera",
+        "¿Cómo comenzó la carrera?",
+        "¿Qué antecedentes tiene la carrera?"
+      ],
+      "responses": [
+        "Esta Área tiene una trayectoria de 33 años en la formación de Ingenieros y tiene su origen en el año 1970 con la creación de la Sección Gestión de la Producción dentro del Departamento de Ingeniería Mecánica de la Sede Arica de la Universidad del Norte. Los académicos del programa de Ingeniería Civil Industrial (Acreditada por 3 años) que se inicia en 1978 dan origen a la creación del Departamento de Industrias, en marzo de 1982. Actualmente, esta unidad dicta en Arica la carrera de Ingeniería Civil Industrial, con salida intermedia a Ingeniería de Ejecución Industrial."
+      ]
+    },
+    {
+      "tag": "vision_carrera",
+      "patterns": [
+        "¿Cuál es la visión de la carrera?",
+        "¿Qué objetivos tiene la carrera a futuro?",
+        "¿Cómo se ve la carrera a largo plazo?",
+       "vision"
+      ],
+      "responses": [
+        "La visión de la carrera es ser una unidad de prestigio y reconocimiento por su aporte en la formación de profesionales capaces de enfrentar los desafíos en el área de la ingeniería industrial."
+      ]
+    },
+    {
+      "tag": "historia_carrera",
+      "patterns": [
+        "¿Cuál es la historia de la carrera?",
+        "Cuéntame sobre la trayectoria de la carrera",
+        "¿Cómo comenzó la carrera?",
+        "¿Qué antecedentes tiene la carrera?"
+      ],
+      "responses": [
+        "Esta Área tiene una trayectoria de 33 años en la formación de Ingenieros y tiene su origen en el año 1970 con la creación de la Sección Gestión de la Producción dentro del Departamento de Ingeniería Mecánica de la Sede Arica de la Universidad del Norte. Los académicos del programa de Ingeniería Civil Industrial (Acreditada por 3 años) que se inicia en 1978 dan origen a la creación del Departamento de Industrias, en marzo de 1982. Actualmente, esta unidad dicta en Arica la carrera de Ingeniería Civil Industrial, con salida intermedia a Ingeniería de Ejecución Industrial."
+      ]
+    },
+    {
+      "tag": "mision_carrera",
+      "patterns": [
+        "¿Cuál es la misión de la carrera?",
+        "¿Qué misión tiene la carrera?",
+        "¿Qué objetivos tiene la carrera?",
+        "¿Qué busca la carrera de Ingeniería Industrial?"
+      ],
+      "responses": [
+        "El Área de Ingeniería Industrial de la Universidad de Tarapacá es una unidad académica formada por un equipo multidisciplinario de ingenieros y administrativos que buscan, bajo procesos de calidad y la transferencia de conocimiento, formar profesionales en el ámbito de la ingeniería industrial capaces de enfrentar con éxito los desafíos organizacionales. Tiene como propósito fundamental generar, desarrollar, aplicar y difundir en forma continua, conocimientos relacionados con el quehacer industrial y la comunidad en general, mediante actividades de docencia, extensión e investigación aplicada a través de la innovación, el mejoramiento continuo y el trabajo en equipo."
+      ]
+    },
+    {
+      "tag": "perfil_egreso",
+      "patterns": [
+        "¿Cuál es el perfil de egreso?",
+        "¿Qué habilidades tiene el egresado?",
+        "¿Cómo es el perfil del egresado?",
+        "¿Qué capacita el perfil de egreso?"
+      ],
+      "responses": [
+        "El Ingeniero Civil Industrial de la Universidad de Tarapacá es un profesional que posee sólidos valores humanistas y ciudadanos promovidos por la institución en su modelo educativo. En particular, este profesional asume el respeto por los demás, la valoración e integración intercultural y el compromiso con el desarrollo de la sociedad como parte esencial de su quehacer \n El egresado es un profesional cualificado, competente y autónomo, cuyo propósito es gestionar sistemas que integran personas, recursos físicos y económicos, energía, información y tecnologías para crear valor en las organizaciones y en la sociedad. En el ejercicio de su profesión, utiliza el enfoque sistémico y los conocimientos de ingeniería de operaciones, administración y economía para modelar y optimizar procesos de transformación de insumos en productos, formular, gestionar y evaluar proyectos y planes estratégicos en organización y empresas. \n El egresado de esta carrera está capacitado para desarrollar su profesión en las áreas de ciencias básicas, ciencias de la ingeniería, ingeniería aplicada y ciencias sociales, en concordancia con los estándares de calidad que hoy se le exige a las carreras de Ingeniería."
+      ]
+    },
+    {
+  "tag": "campo_laboral",
+  "patterns": [
+    "¿Cuál es el campo laboral del Ingeniero Civil Industrial?",
+    "Campo laboral del Ingeniero Civil Industrial",
+    "¿Dónde puede trabajar un Ingeniero Civil Industrial?",
+    "¿Qué hace el Ingeniero Civil Industrial en su campo laboral?",
+    "campo laboral"
+  ],
+  "responses": [
+    "El Ingeniero Civil Industrial de la Universidad de Tarapacá está capacitado para desempeñarse en diferentes niveles jerárquicos y en diversas áreas funcionales de las organizaciones en los sectores público y privado, en empresas de manufactura y de servicios, así como también gestionar su propio emprendimiento.\n\nEl egresado de Ingeniero Civil Industrial de la Universidad de Tarapacá está habilitado para complementar su formación profesional mediante perfeccionamientos y estudios de postgrado, en razón al grado de Licenciado en Ciencias de la Ingeniería y su título profesional.\n\nDel perfil de egreso, se desprenden los conocimientos, habilidades y actitudes que el egresado debe dominar para ejercer la profesión, tales como, (a) conocimiento en: ciencias básicas; ciencias de la ingeniería; investigación operativa; tecnología de la información; administración de operaciones y cadena de suministro; ciencias de la administración; economía y finanzas; e inglés comunicacional, (b) habilidades de: comunicarse en forma oral y escrita; trabajar en equipo; autoaprendizaje; gestionar información y; orientar a la calidad; y respeto a la (c) actitud: ser responsable con la sociedad, la cultura y el medioambiente.\n 1. Empresas Manufactureras y de Servicios. Optimizando procesos, utilizando de manera eficiente los recursos tangibles (físicos, tecnológicos y financieros) e intangibles (informáticos y personal) y diseñando e implementando sistemas integrados de gestión. Ocupando puestos de direcciones en la gestión de activos y mantenimiento y sistemas logísticos.\n 2. Áreas Funcionales de Empresas. Administrando planes de desarrollo estratégico, planes operativos y procedimientos de cualquier área funcional (operaciones, Finanzas, Personal y Marketing) de la empresa pública o privada. Ocupando puestos de direcciones en las áreas administrativas como el área contable, financiera, comercial, tecnológica y de personal.\n 3. Área Ejecutiva y Dirección de Empresas. Formulando y resolviendo problemas organizacionales con una visión Estratégica (largo plazo) utilizando su formación sistémica e integrada de otras disciplinas, permitiendo dirigir equipos multidisciplinarios y liderar los diferentes procesos de una organización."
+  ]
+},
+    {
+      "tag": "plan_estudios",
+      "patterns": [
+        "¿Cómo es el plan de estudios de la carrera?",
+        "¿Cuáles son las asignaturas de la carrera?",
+        "¿Qué materias incluye el programa de Ingeniería Industrial?"
+      ],
+      "responses": [
+        "El plan de estudios de Ingeniería Industrial cubre áreas como matemáticas, física, economía, administración, operaciones, y más, ofreciendo una formación integral en diversas disciplinas."
+      ]
+    },{
+      "tag": "historia_carrera",
+      "patterns": [
+        "¿Cuál es la historia de la carrera?",
+        "Cuéntame sobre la trayectoria de la carrera",
+        "¿Cómo comenzó la carrera?",
+        "¿Qué antecedentes tiene la carrera?"
+      ],
+      "responses": [
+        "Esta Área tiene una trayectoria de 33 años en la formación de Ingenieros y tiene su origen en el año 1970 con la creación de la Sección Gestión de la Producción dentro del Departamento de Ingeniería Mecánica de la Sede Arica de la Universidad del Norte. Los académicos del programa de Ingeniería Civil Industrial (Acreditada por 3 años) que se inicia en 1978 dan origen a la creación del Departamento de Industrias, en marzo de 1982. Actualmente, esta unidad dicta en Arica la carrera de Ingeniería Civil Industrial, con salida intermedia a Ingeniería de Ejecución Industrial."
+      ]
+    },
+    {
+      "tag": "mision_carrera",
+      "patterns": [
+        "¿Cuál es la misión de la carrera?",
+        "¿Qué misión tiene la carrera?",
+        "¿Qué objetivos tiene la carrera?",
+        "¿Qué busca la carrera de Ingeniería Industrial?",
+        "mision"
+      ],
+      "responses": [
+        "El Área de Ingeniería Industrial de la Universidad de Tarapacá es una unidad académica formada por un equipo multidisciplinario de ingenieros y administrativos que buscan, bajo procesos de calidad y la transferencia de conocimiento, formar profesionales en el ámbito de la ingeniería industrial capaces de enfrentar con éxito los desafíos organizacionales. Tiene como propósito fundamental generar, desarrollar, aplicar y difundir en forma continua, conocimientos relacionados con el quehacer industrial y la comunidad en general, mediante actividades de docencia, extensión e investigación aplicada a través de la innovación, el mejoramiento continuo y el trabajo en equipo."
+      ]
+    }, {
+      "tag": "horario_vania_quezada",
+      "patterns": [
+        "¿Cuál es el horario de atención de Vania Quezada?",
+        "Horario de Vania Quezada",
+        "¿A qué hora atiende Vania Quezada?"
+      ],
+      "responses": [
+        "El horario de atención de Vania Quezada es el miércoles a las 11:20."
+      ]
+    },
+    {
+      "tag": "horario_sebastian_gonzalez",
+      "patterns": [
+        "¿Cuál es el horario de atención de Sebastián González Aguilera?",
+        "Horario de Sebastián González Aguilera",
+        "¿A qué hora atiende Sebastián González Aguilera?"
+      ],
+      "responses": [
+        "El horario de atención de Sebastián González Aguilera es el miércoles a las 11:20."
+      ]
+    },
+    {
+      "tag": "horario_juan_vega",
+      "patterns": [
+        "¿Cuál es el horario de atención de Juan Vega Vargas?",
+        "Horario de Juan Vega Vargas",
+        "¿A qué hora atiende Juan Vega Vargas?"
+      ],
+      "responses": [
+        "El horario de atención de Juan Vega Vargas es el jueves a las 14:45."
+      ]
+    },{
+      "tag": "certificado_medico",
+      "patterns": [
+        "¿Cómo presentar un certificado médico?",
+        "¿Qué requisitos tiene el certificado médico?",
+        "¿Cuáles son los pasos para presentar un certificado médico?",
+        "¿Dónde debo presentar mi certificado médico?",
+        "¿Qué debe incluir el certificado médico?",
+        "Justificativo"
+      ],
+      "responses": [
+        "Para presentar un certificado médico, debes seguir estas indicaciones:\n\n- El certificado debe ser presentado dentro de 3 días hábiles a contar de la fecha de inicio del reposo.\n- Se debe presentar el documento original, no se reciben copias.\n- El certificado debe indicar la fecha de inicio y término del reposo.\n- Debe adjuntar comprobante de atención (bono, boleta, voucher de CESFAM, registro de atención de urgencia, ya sea del hospital, clínica, SAR o S).\n- Debe venir con la identificación del profesional (firma y timbre).\n- Debe venir sin enmendaduras."
+      ]
+    },{
+      "tag": "practica_profesional",
+      "patterns": [
+        "¿Cómo puedo realizar mi práctica profesional?",
+        "¿En qué consiste la práctica profesional?",
+        "¿Qué debo hacer para comenzar mi práctica profesional?",
+        "¿Cuáles son los requisitos para la práctica profesional?",
+        "¿Necesito algo para realizar mi práctica profesional?"
+      ],
+      "responses": [
+        "Para realizar tu práctica profesional, debes seguir estos pasos:\n\n1. Envía un correo a la secretaria con tu nombre, tu RUT y el nombre de la empresa donde realizarás la práctica.\n2. Si necesitas una carta de recomendación, también debes incluir el nombre del empleador y su puesto en la empresa.\n3. Contarás con un seguro escolar durante la duración de la práctica (180 horas para la primera). Este seguro es extensible si es necesario."
+      ]
+    }
   ]
 }
-
