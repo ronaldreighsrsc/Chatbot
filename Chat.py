@@ -1,8 +1,8 @@
 import streamlit as st
-import unicode
 import pandas as pd
 from Interpretador import predict_class, get_response, intents
-from unidecode import unidecode  # Agregar para eliminar tildes
+from unidecode import unidecode
+
 
 # Definir la ruta del archivo CSV donde se guardará la conversación
 CSV_FILE = "chat_history.csv"
