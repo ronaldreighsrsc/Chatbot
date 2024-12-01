@@ -1,4 +1,3 @@
-
 from nltk.stem import WordNetLemmatizer
 import json
 import pickle
@@ -9,6 +8,12 @@ from keras.optimizers import SGD
 from keras.optimizers.schedules import ExponentialDecay
 import random
 import nltk
+import unidecode
+
+
+# Función para eliminar tildes
+def remove_accents(input_str):
+    return unidecode.unidecode(input_str)
 
 
 data_file = open('uwu.json', 'r', encoding='utf-8').read()
@@ -24,17 +29,22 @@ ignore_words = ['?', '!']
 # Recorre cada intención y sus patrones en el archivo JSON
 for intent in intents['intents']:
     for pattern in intent['patterns']:
+        # Eliminamos las tildes de las palabras del patrón
+        pattern = remove_accents(pattern)
+
         # Tokeniza las palabras en cada patrón y las agrega a la lista de palabras
         w = nltk.word_tokenize(pattern)
         words.extend(w)
+
         # Agrega el par (patrón, etiqueta) a la lista de documentos
         documents.append((w, intent['tag']))
+
         # Si la etiqueta no está en la lista de clases, la agrega
         if intent['tag'] not in classes:
             classes.append(intent['tag'])
 
 # Lemmatiza las palabras y las convierte en minúsculas, excluyendo las palabras ignoradas
-words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
+words = [lemmatizer.lemmatize(remove_accents(w.lower())) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
@@ -48,7 +58,7 @@ output_empty = [0] * len(classes)
 # Crea el conjunto de entrenamiento
 for doc in documents:
     bag = []
-    pattern_words = [lemmatizer.lemmatize(word.lower()) for word in doc[0]]
+    pattern_words = [lemmatizer.lemmatize(remove_accents(word.lower())) for word in doc[0]]
 
     for word in words:
         # Crea una bolsa de palabras binaria para cada patrón
