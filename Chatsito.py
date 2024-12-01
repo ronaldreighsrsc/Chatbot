@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import nltk
 from Interpretador import predict_class, get_response, intents
 # Definir la ruta del archivo CSV donde se guardará la conversación
 nltk.download('punkt_tab')
