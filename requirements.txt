@@ -118,3 +118,4 @@ Werkzeug==3.0.3
 wheel==0.44.0
 wrapt==1.16.0
 yarl==1.9.7
+unidecode==23.2.1
