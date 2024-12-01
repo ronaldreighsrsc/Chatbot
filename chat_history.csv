@@ -1,0 +1,293 @@
+ChatID,Role,Content,Feedback
+1,User,uwuw,
+1,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+1,User,pep,
+1,Assistant,"El horario de IN062 - Preparación y Evaluación de Proyectos (PEP) es:
+
+Cátedra (Cat A):
+
+- Lunes 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+- Miércoles 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+
+Laboratorio (Lab C):
+
+- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera",
+2,User,sia,
+2,Assistant,"El horario de IN061 - Sistemas de Información Administrativa (SIA) es:
+
+Cátedra (Cat A):
+
+- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+
+Cátedra (Cat B):
+
+- Viernes 08:00 a 09:30 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro
+- Lunes 14:45 a 16:15 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro",
+3,User,uwu,
+3,Assistant,¡Adiós! ¡Que tengas un buen día!,
+4,User,enero,
+4,Assistant,¡Nos vemos! Recuerda que siempre estoy aquí para ayudarte.,
+1,User,uwu,
+1,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+2,User,sia,
+2,Assistant,"El horario de IN061 - Sistemas de Información Administrativa (SIA) es:
+
+Cátedra (Cat A):
+
+- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+
+Cátedra (Cat B):
+
+- Viernes 08:00 a 09:30 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro
+- Lunes 14:45 a 16:15 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro",
+3,User,modelos,
+3,Assistant,"El horario de IN064 - Modelos Estocásticos es:
+
+Cátedra (Cat B):
+- Martes 16:20 a 17:50 hrs en Sala 304 - Aulario C - Saucache con Juan Antonio Vega Vargas
+- Jueves 16:20 a 17:50 hrs en Sala 304 - Aulario C - Saucache con Juan Antonio Vega Vargas
+
+Laboratorio (Lab C):
+- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera",
+4,User,preguntas,
+4,Assistant,¡Adiós! ¡Espero verte pronto!,
+1,User,A,
+1,Assistant,¡Hola! ¿Qué puedo hacer por ti hoy?,
+2,User,B,
+2,Assistant,¡Adiós! ¡Que tengas un buen día!,
+3,User,C,
+3,Assistant,¡Cuídate! ¡Hasta luego!,
+1,User,A,
+1,Assistant,¡Hola! ¿En qué puedo asistirte?,
+2,User,B,
+2,Assistant,¡Adiós! ¡Que tengas un buen día!,
+3,User,C,
+3,Assistant,¡Adiós! ¡Que tengas un buen día!,
+1,User,uax,
+1,Assistant,¡Adiós! ¡Que tengas un buen día!,
+2,User,A,
+2,Assistant,¡Hola! Espero que tengas un buen día. ¿En qué puedo ayudarte?,
+3,User,B,
+3,Assistant,¡Hasta la próxima! ¡Fue un placer ayudarte!,
+1,User,PEP,
+1,Assistant,"El horario de IN062 - Preparación y Evaluación de Proyectos (PEP) es:
+
+Cátedra (Cat A):
+
+- Lunes 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+- Miércoles 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+
+Laboratorio (Lab C):
+
+- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera",
+2,User,sia,
+2,Assistant,"El horario de IN061 - Sistemas de Información Administrativa (SIA) es:
+
+Cátedra (Cat A):
+
+- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+
+Cátedra (Cat B):
+
+- Viernes 08:00 a 09:30 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro
+- Lunes 14:45 a 16:15 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro",
+3,User,modelos,
+3,Assistant,"El horario de IN064 - Modelos Estocásticos es:
+
+Cátedra (Cat B):
+- Martes 16:20 a 17:50 hrs en Sala 304 - Aulario C - Saucache con Juan Antonio Vega Vargas
+- Jueves 16:20 a 17:50 hrs en Sala 304 - Aulario C - Saucache con Juan Antonio Vega Vargas
+
+Laboratorio (Lab C):
+- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera",
+1,User,pep,
+1,Assistant,"El horario de IN062 - Preparación y Evaluación de Proyectos (PEP) es:
+
+Cátedra (Cat A):
+
+- Lunes 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+- Miércoles 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+
+Laboratorio (Lab C):
+
+- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera",
+2,User,sia,
+2,Assistant,"El horario de IN061 - Sistemas de Información Administrativa (SIA) es:
+
+Cátedra (Cat A):
+
+- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+
+Cátedra (Cat B):
+
+- Viernes 08:00 a 09:30 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro
+- Lunes 14:45 a 16:15 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro",
+3,User,uwu,
+3,Assistant,"Nos vemos, ¡vuelve pronto!",
+1,User,pep,
+1,Assistant,"El horario de IN062 - Preparación y Evaluación de Proyectos (PEP) es:
+
+Cátedra (Cat A):
+
+- Lunes 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+- Miércoles 11:20 a 12:50 hrs en Sala 101 - Aulario A - Saucache con Italo Andrés Marchioni Choque
+
+Laboratorio (Lab C):
+
+- Miércoles 09:40 a 11:10 hrs en Lab Indus 3 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera",
+2,User,sia,
+2,Assistant,"El horario de IN061 - Sistemas de Información Administrativa (SIA) es:
+
+Cátedra (Cat A):
+
+- Lunes 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+- Miércoles 09:40 a 11:10 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Sebastián Ignacio González Aguilera
+
+Cátedra (Cat B):
+
+- Viernes 08:00 a 09:30 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro
+- Lunes 14:45 a 16:15 hrs en Indus 1 - Nuevo Edificio Depto Industrial - Saucache con Roberto Pizarro",
+1,User,Auxilio,
+1,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+1,User,Prueba,
+1,Assistant,¡Cuídate! ¡Hasta luego!,
+2,User,prueba2,
+2,Assistant,¡Adiós! ¡Que tengas un buen día!,
+3,User,prueba3,
+3,Assistant,¡Cuídate! ¡Hasta luego!,
+4,User,prueba4,
+4,Assistant,¡Adiós! ¡Espero verte pronto!,
+1,User,A,
+1,Assistant,¡Hola! Espero que tengas un buen día. ¿En qué puedo ayudarte?,
+2,User,B,
+2,Assistant,"Nos vemos, ¡vuelve pronto!",
+3,User,C,
+3,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+1,User,simp,
+1,Assistant,¡Nos vemos! Recuerda que siempre estoy aquí para ayudarte.,
+2,User,par,
+2,Assistant,¡Adiós! ¡Que tengas un buen día!,
+3,User,dis,
+3,Assistant,¡Adiós! ¡Que tengas un buen día!,
+4,User,pus,
+4,Assistant,¡Cuídate! ¡Hasta luego!,
+1,User,A,
+1,Assistant,¡Hola! ¿Qué necesitas?,
+2,User,B,
+2,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+3,User,C,
+3,Assistant,¡Adiós! ¡Que tengas un buen día!,
+1,User,heelo,
+1,Assistant,"Nos vemos, ¡vuelve pronto!",
+1,User,Syllabus,
+1,Assistant,¡Adiós! ¡Que tengas un buen día!,
+2,User,{ñ{{ñ,
+2,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+1,User,Información General,
+1,Assistant,La carrera de Ingeniería Industrial tiene como objetivo formar profesionales capaces de gestionar y optimizar sistemas y recursos para la producción de bienes y servicios en diversas organizaciones.,
+2,User,historia de la carrera,
+2,Assistant,"Esta Área tiene una trayectoria de 33 años en la formación de Ingenieros y tiene su origen en el año 1970 con la creación de la Sección Gestión de la Producción dentro del Departamento de Ingeniería Mecánica de la Sede Arica de la Universidad del Norte. Los académicos del programa de Ingeniería Civil Industrial (Acreditada por 3 años) que se inicia en 1978 dan origen a la creación del Departamento de Industrias, en marzo de 1982. Actualmente, esta unidad dicta en Arica la carrera de Ingeniería Civil Industrial, con salida intermedia a Ingeniería de Ejecución Industrial.",
+3,User,vision,
+3,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+4,User,Perfil de egreso,
+4,Assistant,"El egresado es un profesional autónomo y competente en la gestión de sistemas organizacionales, capaz de integrar y optimizar los recursos disponibles en empresas de diversos sectores.",
+5,User,campo laboral,
+5,Assistant,¡Cuídate! ¡Hasta luego!,
+6,User,plan  de estudios,
+6,Assistant,"El plan de estudios de Ingeniería Industrial cubre áreas como matemáticas, física, economía, administración, operaciones, y más, ofreciendo una formación integral en diversas disciplinas.",
+1,User,mision,
+1,Assistant,"El Área de Ingeniería Industrial de la Universidad de Tarapacá es una unidad académica formada por un equipo multidisciplinario de ingenieros y administrativos que buscan, bajo procesos de calidad y la transferencia de conocimiento, formar profesionales en el ámbito de la ingeniería industrial capaces de enfrentar con éxito los desafíos organizacionales. Tiene como propósito fundamental generar, desarrollar, aplicar y difundir en forma continua, conocimientos relacionados con el quehacer industrial y la comunidad en general, mediante actividades de docencia, extensión e investigación aplicada a través de la innovación, el mejoramiento continuo y el trabajo en equipo.",
+2,User,visión,
+2,Assistant,La visión de la carrera es ser una unidad de prestigio y reconocimiento por su aporte en la formación de profesionales capaces de enfrentar los desafíos en el área de la ingeniería industrial.,
+3,User,perfil de egreso,
+3,Assistant,"El egresado de esta carrera está capacitado para desarrollar su profesión en las áreas de ciencias básicas, ciencias de la ingeniería, ingeniería aplicada y ciencias sociales, en concordancia con los estándares de calidad que hoy se le exige a las carreras de Ingeniería.",
+4,User,campo laboral,
+4,Assistant,"1. Empresas Manufactureras y de Servicios. Optimizando procesos, utilizando de manera eficiente los recursos tangibles (físicos, tecnológicos y financieros) e intangibles (informáticos y personal) y diseñando e implementando sistemas integrados de gestión. Ocupando puestos de direcciones en la gestión de activos y mantenimiento y sistemas logísticos.",
+1,User,Campo laboral,
+1,Assistant,"El Ingeniero Civil Industrial de la Universidad de Tarapacá está capacitado para desempeñarse en diferentes niveles jerárquicos y en diversas áreas funcionales de las organizaciones en los sectores público y privado, en empresas de manufactura y de servicios, así como también gestionar su propio emprendimiento.
+
+El egresado de Ingeniero Civil Industrial de la Universidad de Tarapacá está habilitado para complementar su formación profesional mediante perfeccionamientos y estudios de postgrado, en razón al grado de Licenciado en Ciencias de la Ingeniería y su título profesional.
+
+Del perfil de egreso, se desprenden los conocimientos, habilidades y actitudes que el egresado debe dominar para ejercer la profesión, tales como, (a) conocimiento en: ciencias básicas; ciencias de la ingeniería; investigación operativa; tecnología de la información; administración de operaciones y cadena de suministro; ciencias de la administración; economía y finanzas; e inglés comunicacional, (b) habilidades de: comunicarse en forma oral y escrita; trabajar en equipo; autoaprendizaje; gestionar información y; orientar a la calidad; y respeto a la (c) actitud: ser responsable con la sociedad, la cultura y el medioambiente.
+ 1. Empresas Manufactureras y de Servicios. Optimizando procesos, utilizando de manera eficiente los recursos tangibles (físicos, tecnológicos y financieros) e intangibles (informáticos y personal) y diseñando e implementando sistemas integrados de gestión. Ocupando puestos de direcciones en la gestión de activos y mantenimiento y sistemas logísticos.
+ 2. Áreas Funcionales de Empresas. Administrando planes de desarrollo estratégico, planes operativos y procedimientos de cualquier área funcional (operaciones, Finanzas, Personal y Marketing) de la empresa pública o privada. Ocupando puestos de direcciones en las áreas administrativas como el área contable, financiera, comercial, tecnológica y de personal.
+ 3. Área Ejecutiva y Dirección de Empresas. Formulando y resolviendo problemas organizacionales con una visión Estratégica (largo plazo) utilizando su formación sistémica e integrada de otras disciplinas, permitiendo dirigir equipos multidisciplinarios y liderar los diferentes procesos de una organización.",
+2,User,mision,
+2,Assistant,"El Área de Ingeniería Industrial de la Universidad de Tarapacá es una unidad académica formada por un equipo multidisciplinario de ingenieros y administrativos que buscan, bajo procesos de calidad y la transferencia de conocimiento, formar profesionales en el ámbito de la ingeniería industrial capaces de enfrentar con éxito los desafíos organizacionales. Tiene como propósito fundamental generar, desarrollar, aplicar y difundir en forma continua, conocimientos relacionados con el quehacer industrial y la comunidad en general, mediante actividades de docencia, extensión e investigación aplicada a través de la innovación, el mejoramiento continuo y el trabajo en equipo.",
+3,User,campo laboral,
+3,Assistant,"El Ingeniero Civil Industrial de la Universidad de Tarapacá está capacitado para desempeñarse en diferentes niveles jerárquicos y en diversas áreas funcionales de las organizaciones en los sectores público y privado, en empresas de manufactura y de servicios, así como también gestionar su propio emprendimiento.
+
+El egresado de Ingeniero Civil Industrial de la Universidad de Tarapacá está habilitado para complementar su formación profesional mediante perfeccionamientos y estudios de postgrado, en razón al grado de Licenciado en Ciencias de la Ingeniería y su título profesional.
+
+Del perfil de egreso, se desprenden los conocimientos, habilidades y actitudes que el egresado debe dominar para ejercer la profesión, tales como, (a) conocimiento en: ciencias básicas; ciencias de la ingeniería; investigación operativa; tecnología de la información; administración de operaciones y cadena de suministro; ciencias de la administración; economía y finanzas; e inglés comunicacional, (b) habilidades de: comunicarse en forma oral y escrita; trabajar en equipo; autoaprendizaje; gestionar información y; orientar a la calidad; y respeto a la (c) actitud: ser responsable con la sociedad, la cultura y el medioambiente.
+ 1. Empresas Manufactureras y de Servicios. Optimizando procesos, utilizando de manera eficiente los recursos tangibles (físicos, tecnológicos y financieros) e intangibles (informáticos y personal) y diseñando e implementando sistemas integrados de gestión. Ocupando puestos de direcciones en la gestión de activos y mantenimiento y sistemas logísticos.
+ 2. Áreas Funcionales de Empresas. Administrando planes de desarrollo estratégico, planes operativos y procedimientos de cualquier área funcional (operaciones, Finanzas, Personal y Marketing) de la empresa pública o privada. Ocupando puestos de direcciones en las áreas administrativas como el área contable, financiera, comercial, tecnológica y de personal.
+ 3. Área Ejecutiva y Dirección de Empresas. Formulando y resolviendo problemas organizacionales con una visión Estratégica (largo plazo) utilizando su formación sistémica e integrada de otras disciplinas, permitiendo dirigir equipos multidisciplinarios y liderar los diferentes procesos de una organización.",
+1,User,Campo Laboral,
+1,Assistant,"El Ingeniero Civil Industrial de la Universidad de Tarapacá está capacitado para desempeñarse en diferentes niveles jerárquicos y en diversas áreas funcionales de las organizaciones en los sectores público y privado, en empresas de manufactura y de servicios, así como también gestionar su propio emprendimiento.
+
+El egresado de Ingeniero Civil Industrial de la Universidad de Tarapacá está habilitado para complementar su formación profesional mediante perfeccionamientos y estudios de postgrado, en razón al grado de Licenciado en Ciencias de la Ingeniería y su título profesional.
+
+Del perfil de egreso, se desprenden los conocimientos, habilidades y actitudes que el egresado debe dominar para ejercer la profesión, tales como, (a) conocimiento en: ciencias básicas; ciencias de la ingeniería; investigación operativa; tecnología de la información; administración de operaciones y cadena de suministro; ciencias de la administración; economía y finanzas; e inglés comunicacional, (b) habilidades de: comunicarse en forma oral y escrita; trabajar en equipo; autoaprendizaje; gestionar información y; orientar a la calidad; y respeto a la (c) actitud: ser responsable con la sociedad, la cultura y el medioambiente.
+ 1. Empresas Manufactureras y de Servicios. Optimizando procesos, utilizando de manera eficiente los recursos tangibles (físicos, tecnológicos y financieros) e intangibles (informáticos y personal) y diseñando e implementando sistemas integrados de gestión. Ocupando puestos de direcciones en la gestión de activos y mantenimiento y sistemas logísticos.
+ 2. Áreas Funcionales de Empresas. Administrando planes de desarrollo estratégico, planes operativos y procedimientos de cualquier área funcional (operaciones, Finanzas, Personal y Marketing) de la empresa pública o privada. Ocupando puestos de direcciones en las áreas administrativas como el área contable, financiera, comercial, tecnológica y de personal.
+ 3. Área Ejecutiva y Dirección de Empresas. Formulando y resolviendo problemas organizacionales con una visión Estratégica (largo plazo) utilizando su formación sistémica e integrada de otras disciplinas, permitiendo dirigir equipos multidisciplinarios y liderar los diferentes procesos de una organización.",
+1,User,Horarios de atención,
+1,Assistant,El horario de atención de Juan Vega Vargas es el jueves a las 14:45.,
+2,User,Vania quezada,
+2,Assistant,El horario de atención de Sebastián González Aguilera es el miércoles a las 11:20.,
+1,User,Vania quzada,
+1,Assistant,El horario de atención de Vania Quezada es el miércoles a las 11:20.,
+2,User,Sebastian Gonzalez,
+2,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+3,User,Sebastían González,
+3,Assistant,El horario de atención de Sebastián González Aguilera es el miércoles a las 11:20.,
+1,User,vania quezad,
+1,Assistant,El horario de atención de Vania Quezada es el miércoles a las 11:20.,
+2,User,sebastian gonzalez,
+2,Assistant,El horario de atención de Sebastián González Aguilera es el miércoles a las 11:20.,
+3,User,juan vega vargas,
+3,Assistant,El horario de atención de Juan Vega Vargas es el jueves a las 14:45.,
+1,User,Como hacer la práctica,
+1,Assistant,"Las fechas de inscripción para asignaturas en el segundo semestre de 2024 son:
+- 05 al 16 de agosto: Solicitudes de inscripción de asignaturas fuera de plazo en la Secretaría de la carrera.
+- 12 al 14 de agosto: Inscripción de asignaturas extracurriculares en la oficina de Registraduría.
+- 12 de agosto a partir del mediodía hasta el 14 de agosto: Solicitudes para cursar asignaturas sin prerrequisito en la intranet del estudiante.
+- Hasta el 20 de agosto: Análisis de solicitudes por parte de las jefaturas de carreras y envían sugerencias a la Dirección de Docencia.
+- Hasta el 22 de agosto: Resolución de solicitudes por parte de la Dirección de Docencia.",
+2,User,Fechas importantes,
+2,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+3,User,Fechas,
+3,Assistant,¡Adiós! ¡Que tengas un buen día!,
+1,User,enero,
+1,Assistant,¡Adiós! ¡Espero verte pronto!,
+2,User,Febrero,
+2,Assistant,"Actividades en febrero 2024:
+- 26: Inicio de actividades académicas, año 2024.
+- 27 febrero al 08 de marzo: Temporada extraordinaria exámenes año 2023, plan semestral, carrera de Derecho, casa central.",
+3,User,Enero,
+3,Assistant,¡Hasta luego! ¡Gracias por visitarnos!,
+1,User,septiembre,
+1,Assistant,"Actividades en septiembre 2024:
+- 16, 17 y 20: Suspensión de clases, a excepción de prácticas e internados.",
+1,User,enero,
+1,Assistant,¡Adiós! ¡Que tengas un buen día!,
+1,User,certificado medico,
+1,Assistant,"Para presentar un certificado médico, debes seguir estas indicaciones:
+
+- El certificado debe ser presentado dentro de 3 días hábiles a contar de la fecha de inicio del reposo.
+- Se debe presentar el documento original, no se reciben copias.
+- El certificado debe indicar la fecha de inicio y término del reposo.
+- Debe adjuntar comprobante de atención (bono, boleta, voucher de CESFAM, registro de atención de urgencia, ya sea del hospital, clínica, SAR o S).
+- Debe venir con la identificación del profesional (firma y timbre).
+- Debe venir sin enmendaduras.",
+1,User,Practica,
+1,Assistant,"Para realizar tu práctica profesional, debes seguir estos pasos:
+
+1. Envía un correo a la secretaria con tu nombre, tu RUT y el nombre de la empresa donde realizarás la práctica.
+2. Si necesitas una carta de recomendación, también debes incluir el nombre del empleador y su puesto en la empresa.
+3. Contarás con un seguro escolar durante la duración de la práctica (180 horas para la primera). Este seguro es extensible si es necesario.",
